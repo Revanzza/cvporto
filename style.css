@@ -1,0 +1,65 @@
+html,body {
+    height: 130%;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: large;
+
+}
+
+h1 {
+    text-align: center;
+}
+.wrapper {
+    width: 450px;
+    background-color: rgb(189, 189, 189);
+    padding: 2rem;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.photo {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+p {
+    margin: 0; 
+}
+.label {
+    width: 120px; 
+    display: inline-block;
+}
+
+.table ul li{
+    padding: .25rem;
+    font-size: x-large;
+}
+
+.photo2 {
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.bg2 {
+    width:  1920px;
+    height: 1080px;
+
+}
